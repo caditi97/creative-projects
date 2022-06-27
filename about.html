@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--
+   Directions:
+   - Try viewing the page before you make any changes
+   - Look for all the places it say *** TODO: _____ ***
+   - Remove the *** TODO: _____ *** and follow the instructions. i.e. if it says
+     *** TODO: Give the page a title *** do just that, write a title for the page in place of the
+     todo item.
+   -->
+<!--
+   ***
+   TODO: fill in your header
+   Name: Aditi Chauhan
+   Date: April 4, 2018
+   Section: CSE 154 AL
+
+   This is the html file for my a webpage that includes information about me
+   like the courses i am taking this quarter.
+   ***
+   -->
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <link rel="stylesheet" href="style.css" />
+      <title>About Me</title>
+   </head>
+   <body>
+      <header>
+         <h1> Hello! I am Aditi Chauhan </h1>
+      </header>
+      <section>
+         <h1>Some stuff about me-</h1>
+         <p>
+            I am a sophomore interested in pursuing CSE/Physics and I am from India
+            (fun fact: did my elementary schooling from Indonesia, still crave nasi
+            goreng from time to time). I'm looking forward to learning more about
+            Web Programming through this course!
+         </p>
+      </section>
+      <div class = "button">
+        <a href = "cps.html"> Check out some Creative Projects I made for CSE 154 </a>
+      </div>
+      <section>
+         <div class="textboxes">
+            <h2>Classes I'm currently taking</h2>
+            <!--
+               *** TODO: Finish the following ordered list with classes you are currently taking (in order
+               of most-to-least favorite). We've shown you two list items, but you may need to add more.
+               -->
+            <ol>
+               <li>CSE 373 - Data Structures and Algorithms</li>
+               <li>CSE 154 - Web Programming</li>
+               <li>MATH 324 - Advanced Calculus</li>
+               <li>PHYS 224 - Thermal Physics</li>
+            </ol>
+         </div>
+      </section>
+      <section>
+         <div class="textboxes">
+            <h2>Five of My Favorite Things</h2>
+            <!--
+               ***
+               TODO: Finish the following unordered list of your favorite things (you can customize the
+               categories if you'd like!).
+
+               Wrap your ANSWER for at least one favorite thing inside of
+               an <a> tag, linking to a related page (e.g. a wikipedia page of your favorite animal).
+               ***
+               -->
+            <ol>
+               <li><strong>Favorite animal:</strong> Cat</li>
+               <li><strong>Favorite food:</strong>
+                  <a href="https://cooking.nytimes.com/recipes/1016754-butter-chicken"> Butter Chicken</a>
+               </li>
+               <li><strong>Favorite TV show:</strong> One Punch Man</li>
+               <li><strong>Favorite hobby:</strong> Gaming</li>
+               <li><strong>Favorite Colour:</strong> Blue</li>
+            </ol>
+         </div>
+         <!--
+            ***
+            TODO: Find two images that represent when you're happy and when you're sad (consider
+            Google Image Search) but remember to cite your sources, see
+            https://courses.cs.washington.edu/courses/cse154/19au/examples/copyrightexamples/copyrightexample2.html
+            ***
+            -->
+         <div class="row">
+            <div class="column">
+               <h3>A picture that represents when I'm happy</h3>
+               <img src="happy.jpg" alt="Happy Kids" />
+               <p>This is a scene from the anime Made in Abyss made available on this
+                  <a href="https://images2.alphacoders.com/856/856712.jpg"> webpage </a>
+               </p>
+            </div>
+            <div class="column">
+               <h3>A picture that represents when I'm sad</h3>
+               <img src="sad.png" alt="staring out the window" />
+               <p>This is a scene from the anime After the Rain made available on this
+                  <a href="https://i.imgur.com/VYnoBdX.png"> webpage </a>
+               </p>
+            </div>
+         </div>
+         <h3>One of my favorite quotes</h3>
+         <!--
+            Note: We'll learn about semantic tags more this week, but an article is a good semantic
+            choice here to group the information about a single quote and the author/source. If
+            you want to have multiple quotes, try duplicating this
+            "card UI" structure.
+            -->
+         <article>
+            <blockquote>
+               <h2>
+                  Don't Think, Feel!
+               </h2>
+            </blockquote>
+            <cite>- Bruce Lee</cite>
+         </article>
+      </section>
+      <div class="button">
+         <a href = "secondpage.html"> Check out some Upcoming Nintendo Games! </a>
+      </div>
+      <!-- Footer -->
+      <footer>
+         <p>Made for CSE 154</p>
+         <audio controls>
+            <source src="zeldawave.ogg" type="audio/ogg">
+            <source src="zeldawave.mp3" type="audio/mpeg">
+         </audio>
+         <!-- This soundtrack Zeldawave is courtesy of Marbke Pawns-->
+         <a href ="https://www.youtube.com/watch?v=bHUvykXL8Og">
+            <h3> Zeldawave </h3>
+         </a>
+      </footer>
+   </body>
+</html>

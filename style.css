@@ -1,0 +1,113 @@
+/*
+TODO: fill in your header
+Name: Aditi Chauhan
+Date: April 4, 2018
+Section: CSE 154 AL
+
+  This file includes all the style that needs to be applied to my other html
+  pages.
+*/
+
+/* Remember: This body ruleset is to get you started, but does not count towards the CP requirements! */
+body {
+  background-color: beige;
+  font-family: Helvetica, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
+p {
+  color: purple;
+  border-radius: 5px;
+  border: 1px solid red;
+}
+
+.textboxes {
+  background-color: lightgrey;
+  border-radius: 10px;
+  border: 5px solid green;
+  margin: 25px;
+  padding: 25px;
+  width: 30%;
+}
+
+header, section, footer {
+  background-color: #e5f5f6;
+  font-family: Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+article {
+ background-color: rgb(153,102,153);
+ color: rgb(255,255,204);
+ text-align: center;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+.roundedBorders{
+  border : 2px solid red;
+  border-radius: 5px;
+}
+
+h1{
+  text-align: center;
+  color: red;
+}
+
+.imageFloat{
+  float: right;
+}
+
+.logo{
+  width:200px;
+  height:100px;
+  margin: 20px 20px 20px 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.games {
+  float: right;
+  width:300px;
+  height:200px;
+  margin: 20px 20px 20px 20px;
+}
+
+.weblink {
+  width:50px;
+  height:50px;
+  margin: 20px 20px 20px 20px;
+}
